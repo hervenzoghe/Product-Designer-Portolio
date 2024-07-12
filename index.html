@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Product Designer</title>
+    <link rel="stylesheet" href="./dist/style.css">
+</head>
+<body class="font-roboto">
+    <header>
+        <nav class="bg-default px-4 lg:px-6 py-3">
+            <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+                <a href="#" class="flex items-center">
+                    <span class="self-center text-4xl font-semibold whitespace-nowrap">logoipsum</span>
+                </a>
+                <div class="flex items-center lg:order-2">
+                    <a href="#" class="text-primary-violet bg-default border-primary-violet border-2 hover:bg-primary-violet hover:text-default focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 md:text-lg lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none">Contact Me</a>
+                    <button data-collapse-toggle="mobile-menu-2" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="mobile-menu-2" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                        <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </button>
+                </div>
+                <div class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
+                    <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                        <li>
+                            <a href="#home" class="block py-2 pr-4 pl-3 text-primary-violet border-b border-primary-violet md:text-lg lg:border-0 lg:p-0" aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="block py-2 pr-4 pl-3 text-body border-b border-primary-violet hover:text-primary-violet md:text-lg lg:border-0 lg:p-0">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="block py-2 pr-4 pl-3 text-body border-b border-primary-violet hover:text-primary-violet md:text-lg lg:border-0 lg:p-0">About me</a>
+                        </li>
+                        <li>
+                            <a href="#testimonials" class="block py-2 pr-4 pl-3 text-body border-b border-primary-violet hover:text-primary-violet md:text-lg lg:border-0 lg:p-0">Testimonials</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="home" class="bg-shade px-6 py-8 gap-6 md:px-16 md:flex md:gap-10 md:flex-row-reverse lg:items-center lg:justify-between lg:px-16 lg:py-16">
+        <div class="sm:w-2/3 mx-auto mb-8 md:w-2/3 lg:w-full">
+            <img src="./assets/images/JohnHeroPhoto.png" alt="John Profile Picture" class="md:w-full md:h-auto lg:w-full lg:h-full xl:w-auto">
+        </div>
+        <div class="md:w-1/2 lg:w-full lg:gap-x-10">
+            <div class="w-full gap-y-10">
+                <h3 class="font-semibold text-xs w-auto align-middle leading-6 mb-2 md:text-sm lg:text-sm lg:mb-6">Hey, I am John</h3>
+                <h1 class="font-bold text-left leading-6 text-2xl mb-2 md:text-4xl lg:text-4xl lg:leading-14 lg:mb-4 xl:my-4">I create <span class="text-primary-violet">product design</span> and brand experience</h1>
+                <p class="text-md text-left text-body leading-normal mb-8 md:text-lg lg:text-2xl xl:mb-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            </div>
+            <a href="#" class="bg-primary-violet w-auto p-2 sm:p-4 border-2 rounded-md text-default hover:bg-default hover:border-primary-violet hover:text-primary-violet focus:bg-default focus:border-x-primary-violet focus:text-primary-violet">Get In Touch</a>
+        </div>
+    </div>
+    <div id="skills" class="bg-secondary px-6 py-8 gap-6 md:px-16 lg:px-16 lg:py-24">
+        <div class="w-full gap-y-10 my-6">
+            <h3 class="font-semibold text-xs w-auto align-middle leading-6 mb-2 md:text-sm lg:text-sm lg:mb-6">My Skills</h3>
+            <h1 class="font-bold text-left leading-6 text-2xl mb-2 md:text-4xl lg:text-6xl lg:leading-14 lg:mb-4 xl:my-4">My Expertise</h1>
+        </div>
+        <div class="grid grid-cols-1 grid-rows-2 sm:grid-cols-2 gap-10 items-center justify-center py-4 md:py-6 md:grid-cols-2 md:grid-rows-2 md:gap-10 lg:gap-16 lg:flex lg:items-center lg:justify-between lg:flex-wrap">
+            <div class="bg-default gap-4 w-64 h-64 p-6 mx-auto border-b-4 border-primary-violet rounded-lg md:gap-6 md:w-72 md:h-72 md:mx-0 lg:gap-6 lg:p-6 xl:w-72">
+                <div class="gap-2 lg:gap-6">
+                    <div class="bg-default rounded-md w-14 h-14 p-2 drop-shadow-md mb-6">
+                        <img class="w-10 h-10" src="./assets/icons/product-chain-icon.png" alt="Product Chain Icon">
+                    </div>
+                    <div class="gap-y-2 flex flex-col justify-between md:gap-y-4">
+                        <h2 class="text-md font-bold text-heading text-left leading-5 md:text-lg lg:text-xl">Strategy & Direction</h2>
+                        <p class="text-sm text-heading text-left leading-6 lg:leading-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-default gap-4 w-64 h-64 p-6 mx-auto rounded-lg md:gap-6 md:mx-0 md:w-72 md:h-72 md:p-10 lg:gap-4 lg:p-6 xl:w-72">
+                <div class="gap-2 lg:gap-6">
+                    <div class="bg-default rounded-md w-14 h-14 p-2 drop-shadow-md mb-6">
+                        <img class="w-10 h-10" src="./assets/icons/branding-icon.png" alt="Product Chain Icon">
+                    </div>
+                    <div class="gap-y-2 flex flex-col justify-between md:gap-y-4">
+                        <h2 class="text-md font-bold text-heading text-left leading-5 md:text-lg lg:text-xl">Branding & Logo</h2>
+                        <p class="text-sm text-heading text-left leading-6 lg:leading-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-default gap-4 w-64 h-64 p-6 mx-auto rounded-lg md:gap-6 md:mx-0 md:w-72 md:h-72 md:p-10 lg:gap-8 lg:p-6 xl:w-72">
+                <div class="gap-2 lg:gap-4">
+                    <div class="bg-default rounded-md w-14 h-14 p-2 drop-shadow-md mb-6">
+                        <img class="w-10 h-10" src="./assets/icons/design-icon.png" alt="Feather Icon">
+                    </div>
+                    <div class="gap-y-2 flex flex-col justify-between md:gap-y-4">
+                        <h2 class="text-md font-bold text-heading text-left leading-5 md:text-lg lg:text-xl">UI & UX Design</h2>
+                        <p class="text-sm text-heading text-left leading-6 lg:leading-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-default gap-4 w-64 h-64 p-6 mx-auto rounded-lg md:gap-6 md:mx-0 md:w-72 md:h-72 md:p-10 lg:gap-8 lg:p-6 xl:w-72">
+                <div class="gap-2 lg:gap-4">
+                    <div class="bg-default rounded-md w-14 h-14 p-2 drop-shadow-md mb-6">
+                        <img class="w-10 h-10" src="./assets/icons/code-icon.png" alt="Coding Icon">
+                    </div>
+                    <div class="gap-y-2 flex flex-col justify-between md:gap-y-4">
+                        <h2 class="text-md font-bold text-heading text-left leading-5 md:text-lg lg:text-xl">Webflow Development</h2>
+                        <p class="text-sm text-heading text-left leading-6 lg:leading-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="about" class="bg-default px-6 py-8 gap-10 md:gap-10 md:px-16 lg:flex lg:items-center lg:px-16 lg:py-16">
+        <div class="flex items-center justify-center mx-auto lg:mx-10">
+            <img src="./assets/images/JohnAboutMe.png" alt="About Me Picture" class="w-72 md:w-96 lg:w-full">
+        </div>
+        <div class="gap-10 mx-auto">
+            <div class="w-full gap-y-10">
+                <h3 class="font-semibold text-xs w-auto align-middle leading-6 md:text-sm md:mb-4 lg:text-sm">About</h3>
+                <h1 class="font-bold text-left leading-6 text-2xl my-2 md:text-4xl md:mb-4 lg:text-6xl lg:leading-14 lg:my-4">About Me</h1>
+            </div>
+            <p class="text-md text-justify text-body leading-normal mb-4 md:text-lg lg:text-xl">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius faucibus massa sollicitudin amet augue. Nibh metus a semper purus mauris duis.
+                Lorem eu neque, tristique quis duis. Nibh scelerisque ac adipiscing velit non nulla in amet pellentesque.
+            </p>
+            <p class="text-md text-justify text-body leading-normal md:text-lg lg:text-xl">
+                Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur eget commodo vitae. Amet pellentesque sit pulvinar lorem mi a, euismod risus r.
+            </p>
+        </div>
+    </div>
+    <div id="portfolio" class="bg-secondary px-6 py-8 gap-y-12 md:gap-y-24 md:px-16 lg:flex lg:flex-col lg:items-center lg:gap-y-8 lg:px-16 lg:py-16">
+        <div class="w-full flex items-center mb-6">
+            <div class="w-full gap-y-10 my-5">
+                <h3 class="font-semibold text-xs w-auto align-middle leading-6 md:text-sm md:mb-4 lg:text-sm">Recent Projects</h3>
+                <h1 class="font-bold text-left leading-6 text-2xl my-2 md:text-4xl md:mb-4 lg:text-6xl lg:leading-14 lg:my-4">My Portfolio</h1>
+            </div>
+            <a href="#" class="flex items-center justify-center w-52 h-12 px-1 md:w-64 lg:px-2 space-x-2 rounded-lg bg-dribble">
+                <img src="./assets/icons/dribble-icon.png" alt="Driblle Icon" class="h-5 w-5">
+                <span class="text-default text-xs md:text-lg">Visit My Dribble</span>
+            </a>
+        </div>
+        <div class="lg:flex lg:items-center lg:justify-between lg:gap-x-12 lg:w-full">
+            <div class="rounded-lg bg-default flex flex-col justify-between mb-10 drop-shadow-md lg:w-1/3">
+                <div>
+                    <img src="./assets/images/ahuse-card-image.png" alt="Ahuse">
+                </div>
+                <div class="gap-y-3 lg:gap-y-8 p-4 lg:p-8">
+                    <div class="gap-y-2 mb-2 lg:gap-y-3 lg:mb-4">
+                        <h2 class="text-md font-bold text-heading mb-2 md:text-xl lg:text-2xl">Ahuse</h2>
+                        <p class="text-sm text-body lg:text-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                    </div>
+                    <div class="w-28">
+                        <a href="#" class="flex items-center w-32 h-10 gap-x-2 border-b-2 border-primary-violet">
+                            <span class="text-black text-sm font-semibold w-auto text-left hover:text-primary-violet md:text-md">View in Dribble</span>
+                            <img src="./assets/icons/arrow.png" alt="Driblle Icon" class="h-3 w-3">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-lg bg-default flex flex-col justify-between mb-10 drop-shadow-md lg:w-1/3">
+                <div>
+                    <img src="./assets/images/dashboard-card-image.png" alt="App Dashboard">
+                </div>
+                <div class="gap-y-3 lg:gap-y-8 p-4 lg:p-8">
+                    <div class="gap-y-2 mb-2 lg:gap-y-3 lg:mb-4">
+                        <h2 class="text-md font-bold text-heading mb-2 md:text-xl lg:text-2xl">App Dashboard</h2>
+                        <p class="text-sm text-body lg:text-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                    </div>
+                    <div class="w-28">
+                        <a href="#" class="flex items-center w-32 h-10 gap-x-2 border-b-2 border-primary-violet">
+                            <span class="text-black text-sm font-semibold w-auto text-left hover:text-primary-violet md:text-md">View in Dribble</span>
+                            <img src="./assets/icons/arrow.png" alt="Driblle Icon" class="h-3 w-3">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-lg bg-default flex flex-col justify-between mb-10 drop-shadow-md lg:w-1/3">
+                <div>
+                    <img src="./assets/images/easy-rent-card-image.png" alt="Easy Rent">
+                </div>
+                <div class="gap-y-3 lg:gap-y-8 p-4 lg:p-8">
+                    <div class="gap-y-2 mb-2 lg:gap-y-3 lg:mb-4">
+                        <h2 class="text-md font-bold text-heading mb-2 md:text-xl lg:text-2xl">Easy Rent</h2>
+                        <p class="text-sm text-body lg:text-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                    </div>
+                    <div class="w-28">
+                        <a href="#" class="flex items-center w-32 h-10 gap-x-2 border-b-2 border-primary-violet">
+                            <span class="text-black text-sm font-semibold w-auto text-left hover:text-primary-violet md:text-md">View in Dribble</span>
+                            <img src="./assets/icons/arrow.png" alt="Driblle Icon" class="h-3 w-3">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="testimonials" class="bg-shade px-6 py-8 gap-y-12 md:gap-y-24 md:px-16 lg:flex lg:flex-col lg:items-center lg:gap-y-8 lg:px-16 lg:py-16">
+        <div class="w-full gap-y-10 my-5">
+            <h3 class="font-semibold text-xs w-auto align-middle leading-6 md:text-sm md:mb-4 lg:text-sm">Clients Feedback</h3>
+            <h1 class="font-bold text-left leading-6 text-2xl my-2 md:text-4xl md:mb-4 lg:text-6xl lg:leading-14 lg:my-4">Customer Testimonials</h1>
+        </div>
+        <div class="lg:flex lg:items-center lg:justify-between lg:gap-x-6 lg:p-x-14">
+            <div class="flex flex-col gap-y-6 my-10 p-10 w-72 h-80 md:w-2/3 md:h-72 lg:w-2/3 lg:h-full xl:w-full mx-auto border-2 rounded-lg border-vert">
+                <div class="flex gap-x-2">
+                    <img src="./assets/icons/star-icon.png" alt="Star">
+                    <img src="./assets/icons/star-icon.png" alt="Star">
+                    <img src="./assets/icons/star-icon.png" alt="Star">
+                    <img src="./assets/icons/star-icon.png" alt="Star">
+                    <img src="./assets/icons/star-icon.png" alt="Star">
+                </div>
+                <p class="text-sm text-body md:text-md lg:text-lg">
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
+                    Duis cursus, mi quis viverra.
+                </p>
+                <div class="flex items-center justify-between w-44 md:w-48 lg:w-52">
+                    <img src="./assets/images/dianne-avatar.png" alt="" class="w-16 h-16">
+                    <div>
+                        <h3 class="text-sm text-heading font-semibold md:text-md lg:text-lg">Dianne Russell</h3>
+                        <span class="text-xs text-body md:text-sm lg:text-md">Starbucks</span>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col gap-y-6 my-10 p-11 w-72 h-80 md:w-2/3 md:h-72 lg:w-2/3 lg:h-full xl:w-full mx-auto border-2 rounded-lg border-vert">
+                <div class="flex gap-x-2">
+                    <img src="./assets/icons/star-icon.png" alt="Star">
+                    <img src="./assets/icons/star-icon.png" alt="Star">
+                    <img src="./assets/icons/star-icon.png" alt="Star">
+                    <img src="./assets/icons/star-icon.png" alt="Star">
+                    <img src="./assets/icons/star-icon.png" alt="Star">
+                </div>
+                <p class="text-sm text-body md:text-md lg:text-lg">
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
+                    Duis cursus, mi quis viverra.
+                </p>
+                <div class="flex items-center justify-between w-44 md:w-48 lg:w-52">
+                    <img src="./assets/images/kristin-avatar.png" alt="Kristin Avatar" class="w-16 h-16">
+                    <div>
+                        <h3 class="text-sm text-heading font-semibold md:text-md lg:text-lg">Kristin Watson</h3>
+                        <span class="text-xs text-body md:text-sm lg:text-md">Louis Vuiton</span>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col gap-y-6 my-10 p-11 w-72 h-80 md:w-2/3 md:h-72 lg:w-2/3 lg:h-full xl:w-full mx-auto border-2 rounded-lg border-vert">
+                <div class="flex gap-x-2">
+                    <img src="./assets/icons/star-icon.png" alt="Star">
+                    <img src="./assets/icons/star-icon.png" alt="Star">
+                    <img src="./assets/icons/star-icon.png" alt="Star">
+                    <img src="./assets/icons/star-icon.png" alt="Star">
+                    <img src="./assets/icons/star-icon.png" alt="Star">
+                </div>
+                <p class="text-sm text-body md:text-md lg:text-lg">
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
+                    Duis cursus, mi quis viverra.
+                </p>
+                <div class="flex items-center justify-between w-44 md:w-48 lg:w-52">
+                    <img src="./assets/images/kathryn-avatar.png" alt="Kathryn Avatar" class="w-16 h-16">
+                    <div>
+                        <h3 class="text-sm text-heading font-semibold md:text-md lg:text-lg">Kathryn Murphy</h3>
+                        <span class="text-xs text-body md:text-sm lg:text-md">McDonald's</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="bg-secondary px-6 py-8 gap-y-12 md:gap-y-24 md:px-16 lg:flex lg:flex-col lg:items-center lg:gap-y-8 lg:px-16 lg:py-16">
+       <div class="flex flex-col items-center gap-5">
+            <h3 class="text-sm text-center font-semibold w-auto text-heading gap-y-5">Get In Touch</h3>
+            <div class="flex flex-col items-center gap-y-4 lg:gap-y-8">
+                <h1 class="text-heading font-bold text-center h-auto text-xl md:text-4xl lg:text-6xl ">Contact me</h1>
+                <p class="h-auto text-md text-center text-body md:text-xl lg:text-2xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+       </div>
+       <form class="mx-auto my-10 lg:mx-10 lg:mt-10 lg:gap-y-12">
+        <div class="gap-y-4 md:flex md:justify-between md:gap-x-10 lg:h-32">
+            <div class="flex flex-col w-auto mb-6 mx-auto gap-y-2 lg:w-72 lg:h-auto">
+                <label for="firstName" class="text-left align-text-top text-heading text-md md:w-72 md:h-8 md:text-xl">First Name</label>
+                <input type="text" id="firstName" name="firstName" class="bg-default border-primary-violet border-2 h-8 p-4 rounded-md lg:w-auto">
+            </div>
+            <div class="flex flex-col w-auto mb-6 mx-auto gap-y-2 lg:w-72 lg:h-auto">
+                <label for="lastName" class="text-left align-text-top text-heading text-md md:w-72 md:h-8 md:text-xl">Last Name</label>
+                <input type="text" id="lastName" name="lastName" class="bg-default border-primary-violet border-2 h-8 p-4 rounded-md lg:w-auto">
+            </div>
+        </div>
+        <div class="gap-y-4 md:flex md:justify-between md:gap-x-10 lg:h-32">
+            <div class="flex flex-col w-auto mb-6 mx-auto gap-y-2 lg:w-72 lg:h-auto">
+                <label for="email" class="text-left align-text-top text-heading text-md md:w-72 md:h-8 md:text-xl">Email</label>
+                <input type="email" id="email" name="email" class="bg-default border-primary-violet border-2 h-8 p-4 rounded-md lg:w-auto">
+            </div>
+            <div class="flex flex-col w-auto mb-6 mx-auto gap-y-2 lg:w-72 lg:h-auto">
+                <label for="phoneNumber" class="text-left align-text-top text-heading text-md md:w-72 md:h-8 md:text-xl">Phone Number</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" class="bg-default border-primary-violet border-2 h-8 p-4 rounded-md lg:w-auto">
+            </div>
+        </div>
+        <div class="flex flex-col w-full h-auto gap-y-2">
+            <label for="topic" class="text-left align-text-top text-heading text-md md:w-72 md:h-8 md:text-xl">Choose a topic</label>
+            <select name="topic" id="topic" class="w-auto p-2 bg-default border-primary-violet border-2 rounded-md">
+                <option value="default" selected>Select one...</option>
+                <option value="user-interface">UI Design</option>
+                <option value="user-experience">UX Design</option>
+                <option value="product-strategy">Product Strategy</option>
+                <option value="prototyping">Prototyping</option>
+                <option value="usability-testing">Usability Testing</option>
+                <option value="visual-design">Visual Design</option>
+            </select>
+        </div>
+        <div class="flex flex-col w-full h-auto my-10 gap-y-2">
+            <label for="message" class="text-left align-text-top text-heading text-md md:w-72 md:h-8 md:text-xl">Message</label>
+            <textarea name="message" id="message" placeholder="Type your message..." class="bg-default border-primary-violet border-2 rounded-md w-auto h-24 md:h-40 md:p-4 "></textarea>
+        </div>
+        <div class="flex items-center lg:my-4 lg:h-6">
+            <input type="checkbox" id="terms" name="terms" class="w-3 h-3 mr-3 mb-1 rounded-sm">
+            <label class="text-left align-text-top text-heading text-md md:w-72 md:h-8 md:text-xl">I accept the terms</label>
+        </div>
+        <div class="flex items-center justify-center">
+            <button type="submit" class="bg-primary-violet text-default text-center text-xl w-32 h-12 mx-auto border-2 rounded px-6 py-2 mt-6 hover:bg-default hover:border-primary-violet hover:text-primary-violet focus:bg-default focus:border-x-primary-violet focus:text-primary-violet md:mt-6  md:text-2xl md:w-40 md:h-16 md:px-10 md:py-4 md:gap-x-3 md:rounded-lg">Submit</button>
+        </div>
+       </form>
+    </div>
+    <footer class="bg-shade px-6 py-8 md:px-10 md:py-8 lg:px-20 lg:py-16">
+        <div class="flex flex-col md:flex-row md:items-center md:justify-between md:mb-10">
+            <a href="#" class="flex items-center justify-center">
+                <span class="self-center text-4xl font-semibold whitespace-nowrap">logoipsum</span>
+            </a>
+            <ul class="flex flex-col mx-auto my-4 text-center md:flex-row md:items-center md:justify-between md:gap-x-4 md:mx-auto">
+                <li><a href="#home" target="_blank" rel="noopener noreferrer" class="text-md hover:text-primary-violet lg:text-lg">Home</a></li>
+                <li><a href="#skills" target="_blank" rel="noopener noreferrer" class="text-md hover:text-primary-violet lg:text-lg">Skills</a></li>
+                <li><a href="#about" target="_blank" rel="noopener noreferrer" class="text-md hover:text-primary-violet lg:text-lg">About</a></li>
+                <li><a href="#portfolio" target="_blank" rel="noopener noreferrer" class="text-md hover:text-primary-violet lg:text-lg">Portfolio</a></li>
+                <li><a href="#testimonials" target="_blank" rel="noopener noreferrer" class="text-md hover:text-primary-violet lg:text-lg">Testimonials</a></li>
+                <li><a href="#contact" target="_blank" rel="noopener noreferrer" class="text-md hover:text-primary-violet lg:text-lg">Contact</a></li>
+            </ul>
+            <div class="flex items-center justify-between m-6 gap-x-4">
+                <a href="#" class="hover:text-primary-violet"><img src="assets/icons/facebook.png" alt="facebook"></a>
+                <a href="#" class="hover:text-primary-violet"><img src="assets/icons/instagram.png" alt="instagram"></a>
+                <a href="#" class="hover:text-primary-violet"><img src="assets/icons/twitter.png" alt="X(Twitter)"></a>
+                <a href="#" class="hover:text-primary-violet"><img src="assets/icons/linkedin.png" alt="linkedin"></a>
+            </div>
+        </div>
+        <div class="bg-black h-0.5 w-full"></div>
+        <div class="flex flex-col md:flex-row md:items-center md:justify-between md:mt-8">
+            <p class="text-center text-heading text-md my-6 md:h-8 md:text-xl">Made with 💖 by Airdokan</p>
+            <ul class="flex flex-col gap-y-2 items-center justify-between md:flex-row md:gap-x-4">
+                <li><a href="#" class="text-md hover:text-primary-violet md:text-lg">Privacy Police</a></li>
+                <li><a href="#" class="text-md hover:text-primary-violet md:text-lg">Terms of Service</a></li>
+                <li><a href="#" class="text-md hover:text-primary-violet md:text-lg">Cookies Settings</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!--JavaScript source file for flowbite-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</body>
+</html>
