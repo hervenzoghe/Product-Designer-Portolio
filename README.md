@@ -5,7 +5,7 @@
   Product Designer Portfolio website built with <a href="https://html.com/" target="_blank">HTML</a>, <a href="https://tailwindcss.com" target="_blank">Tailwind CSS</a>, and <a href="https://flowbite.com/" target="_blank">Flowbite</a>.⚡
 </p>
 
-![preview](https://github.com/hervenzoghe/Product-Designer-Portolio/blob/master/thumbnail.png)
+![preview](https://github.com/hervezossou/Product-Designer-Portolio/blob/master/thumbnail.png)
 
 ## Tech Stack
 
@@ -16,7 +16,7 @@
 ## Running Locally
 
 ```bash
-$ git clone https://github.com/hervenzoghe/Product-Designer-Portolio.git
+$ git clone https://github.com/hervezossou/Product-Designer-Portolio.git
 $ cd Product-Designer-Portolio
 $ npm install
 ```
